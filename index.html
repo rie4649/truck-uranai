@@ -114,3 +114,16 @@ const fortunes = [
 "10ｔ：今日は重い腰が上がる日。やりたくなかったことが意外と進む。",
 
 "三菱ワイド：今日は視野が広がる日。新しいアイデアが湧いてくる。"
+];
+
+function uranai() {
+const random = fortunes[Math.floor(Math.random() * fortunes.length)];
+
+document.getElementById("result").innerHTML =
+"<h2>" + random + "</h2><br>🚛 今日もご安全に！";
+}
+
+</script>
+
+</body>
+</html>
